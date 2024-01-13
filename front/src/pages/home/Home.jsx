@@ -2,7 +2,7 @@ import {Link} from 'react-router-dom'
 import React, { useState } from "react"
 import api from "../../../services/api"
 import '../../global.css'
-
+import Navbar from '../navbar/navbar'
 import { Container, Row, Col, Form, InputGroup, FormControl, Button} from 'react-bootstrap';
 
 
@@ -11,7 +11,7 @@ import { Container, Row, Col, Form, InputGroup, FormControl, Button} from 'react
 function home(){
     return(
       <>
-      
+    <Navbar/>
     {/* HOME */}
 
       <section>
